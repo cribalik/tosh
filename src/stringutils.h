@@ -5,8 +5,7 @@
 #ifndef CSHELL_STRINGUTILS_H
 #define CSHELL_STRINGUTILS_H
 
-#include <string.h>
-#include <malloc.h>
+#include <stddef.h>
 
 size_t strsplit(char* str, const char* delim, char** out);
 

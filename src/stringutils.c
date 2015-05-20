@@ -3,6 +3,7 @@
 */
 
 #include "stringutils.h"
+#include <string.h>
 
 /* Splits string on a string of delimiters.
  * Inserts null characters into <str> and fills <out> with pointers into <str>. */
